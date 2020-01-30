@@ -1,0 +1,6 @@
+import random
+
+values = random.sample(range(20), 10)
+print(values)
+values.pop()
+print(values)
